@@ -4,3 +4,6 @@ export {default as FreightSelection} from './FreightSelection';
 export {default as Products} from './Products';
 export {default as ProductCard} from './ProductCard';
 export {default as ProductCardBottomInfo} from './ProductCardBottomInfo';
+export {default as FreightInformation} from './FreightInformation';
+export {default as Summary} from './Summary';
+export {default as FinalOrder} from './FinalOrder';

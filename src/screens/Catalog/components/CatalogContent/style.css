@@ -1,5 +1,6 @@
 .CatalogContent {
     display: flex;
+    justify-content: space-between;
 }
 
 .CatalogContent__products {
@@ -8,5 +9,15 @@
 
 
 .CatalogContent__priceinfo {
+    display: flex;
+    justify-content: flex-end;
     flex: 2;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1660px) {
+    .CatalogContent {
+        flex-direction: column;
+    }
 }

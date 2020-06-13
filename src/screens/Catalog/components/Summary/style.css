@@ -1,0 +1,14 @@
+.Summary {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1660px) {
+    .Summary {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

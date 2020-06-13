@@ -1,0 +1,72 @@
+.FreightInformation {
+    border-radius: 5px;
+    background: #F1F1F1;
+    padding: 15px;
+    width: 300px;
+}
+
+.FreightInformation__header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--primary);
+}
+
+.FreightInformation__content {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #C4C4C4;
+}
+
+.FreightInformation__item {
+    margin-top: 10px;
+}
+
+.FreightInformation__item > div {
+    margin-top: 5px;
+}
+
+.FreightInformation__subheader {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--primary);
+}
+
+.FreightInformation__typename {
+    border-radius: 2px;
+    background: #7E7E7E;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.FreightInformation__typetext {
+    margin-left: 4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #7E7E7E;
+    letter-spacing: -0.005em;
+}
+
+.FreightInformation__total {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FreightInformation__totalheader {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--primary);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppBar} from "./components";
+import {AppBar, Footer} from "./components";
 import {
     BrowserRouter,
     Route,
@@ -22,7 +22,11 @@ export default function Main() {
                     <Route path={'/catalog'} component={Catalog}></Route>
                     <Redirect to={'/catalog'}></Redirect>
                 </Switch>
+
+                <Footer />
             </main>
+
+
         </BrowserRouter>
     )
 }

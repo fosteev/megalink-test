@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import {FreightSelection, Products} from "../index";
+import {FreightSelection, Products, Summary} from "../index";
 
 
 export default function CatalogContent() {
@@ -15,7 +15,7 @@ export default function CatalogContent() {
             </div>
 
             <div className="CatalogContent__priceinfo">
-                price infor
+                <Summary />
             </div>
 
         </div>
