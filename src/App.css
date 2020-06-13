@@ -1,0 +1,49 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary: #1E1E1E;
+    --primary-contrast: #FFFFFF;
+    --secondary: #FF5247;
+    --secondary-contrast: #FFFFFF;
+    --white: #FFFFFF;
+}
+
+
+[badge]:after {
+    background: var(--secondary);
+    border-radius: 50%;
+
+    color: #fff;
+    content: attr(badge);
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+
+    margin-top: -8px;
+    margin-left: -8px;
+
+    min-width: 1em; /* em unit */
+    padding: .3em; /* em unit */
+
+    position: absolute;
+    text-align: center;
+}
+
+[badge^="-"]:after,
+[badge="0"]:after,
+[badge=""]:after {
+    display: none;
+}
