@@ -1,0 +1,9 @@
+.Divider {
+    border: none;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #B5BFC0;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
