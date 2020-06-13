@@ -1,0 +1,12 @@
+.CatalogContent {
+    display: flex;
+}
+
+.CatalogContent__products {
+    flex: 6;
+}
+
+
+.CatalogContent__priceinfo {
+    flex: 2;
+}

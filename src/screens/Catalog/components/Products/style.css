@@ -1,0 +1,38 @@
+.Products {
+    display: flex;
+    flex-direction: column;
+}
+
+.Products__header {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: solid 1px var(--primary);
+    padding-bottom: 3px;
+}
+
+.Products__item-product {
+    flex: 3;
+}
+
+.Products__item-location {
+    flex: 1;
+}
+
+.Products__item-qty {
+    flex: 1;
+}
+
+.Products__item-avgunitprice {
+    flex: 1;
+}
+
+.Products__item-total {
+    flex: 1;
+    text-align: end;
+}
+
+.Products__item-remove {
+    flex: 1;
+    text-align: end;
+}
