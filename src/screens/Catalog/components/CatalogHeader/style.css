@@ -1,0 +1,40 @@
+.CatalogHeader {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.CatalogHeader__header {
+    flex: 1;
+}
+
+.CatalogHeader__export {
+    display: flex;
+    justify-content: flex-end;
+
+    flex: 1;
+}
+
+.CatalogHeader__content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+}
+
+.CatalogHeader__header > h1 {
+    color: var(--primary);
+
+    font-family: Founders Grotesk;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    font-size: 48px;
+}
+
+.CatalogHeader_btns {
+    display: flex;
+    height: 70px;
+    width: 180px;
+    justify-content: space-between;
+}
