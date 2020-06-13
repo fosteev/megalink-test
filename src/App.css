@@ -47,3 +47,12 @@ body {
 [badge=""]:after {
     display: none;
 }
+
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--primary);
+}
