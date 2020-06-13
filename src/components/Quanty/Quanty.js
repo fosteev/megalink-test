@@ -15,16 +15,16 @@ Quanty.defaultPropTypes = {
 const maxSize = 99;
 
 export default function Quanty({defaultValue}) {
-    const [value, setValue] = useState(defaultValue);
+    const [value, setValue] = useState(Number(defaultValue));
 
     const handleChange = event => {
         if (event.target.value <= maxSize) {
-            setValue(event.target.value);
+            setValue(Number(event.target.value));
         }
     }
 
     const handleArrowUp = () =>  {
-        const newValue = value + 1;
+        const newValue = (Number(value) || 0) + 1;
         if (newValue <= maxSize) {
             setValue(newValue);
         }
