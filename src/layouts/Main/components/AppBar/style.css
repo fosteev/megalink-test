@@ -1,0 +1,39 @@
+.AppBar {
+    padding: 15px 48px 15px 48px;
+    background: var(--primary);
+}
+
+.AppBar__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AppBar__left {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.AppBar__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 500px;
+}
+
+.AppBar__logo {
+    flex: 1;
+}
+
+.AppBar__menu {
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+}
+
+.AppBar__item {
+    color: var(--primary-contrast);
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
