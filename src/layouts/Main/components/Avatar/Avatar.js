@@ -6,7 +6,7 @@ export default function Avatar() {
     return (
         <div className={'Avatar'} >
             <div className="Avatar__logo" style={{
-                'background-image': `url(${AvatarImage})`
+                backgroundImage: `url(${AvatarImage})`
             }} />
         </div>
     )

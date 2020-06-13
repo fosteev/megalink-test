@@ -28,13 +28,13 @@ export default function FreightInformation() {
 
             <div className={'FreightInformation__content'}>
                 {
-                    content.map(({header, items}) => (
+                    content.map(({header, items}, i) => (
                         <div className="FreightInformation__item" key={header}>
                             <span className="FreightInformation__subheader">{header}</span>
 
                             {
-                                items.map(({type, text}) => (
-                                    <div className={'FreightInformation__type'}>
+                                items.map(({type, text}, i) => (
+                                    <div className={'FreightInformation__type'} key={text}>
                                         <span className="FreightInformation__typename">{type}</span>
                                         <span className="FreightInformation__typetext">{text}</span>
                                     </div>

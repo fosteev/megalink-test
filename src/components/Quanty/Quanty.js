@@ -40,8 +40,7 @@ export default function Quanty({defaultValue}) {
             <input type="number"
                    max="99"
                    onChange={handleChange}
-                   value={value}
-                   maxlength={2} />
+                   value={value} />
             <div className={'Quanty__arrows'}>
                 <img src={InputIconUp} onClick={handleArrowUp} alt="icon up"/>
                 <img src={InputIconDown} onClick={handleArrowDown} alt="icon down"/>

@@ -6,8 +6,8 @@ import {ProductCardBottomInfo} from "../index";
 import {currencyString} from "../../../../utils/formats";
 import {Quanty, Tag} from "../../../../components";
 
-ProductCard.propTypes = {
-    key: PropTypes.string,
+ProductCard.PropTypes = {
+    id: PropTypes.string,
     image: PropTypes.string,
     header: PropTypes.string,
     tags: PropTypes.array,
@@ -25,7 +25,7 @@ ProductCard.defaultProps = {
 
 export default function ProductCard(
     {
-        key,
+        id,
         image,
         header,
         tags,
@@ -37,7 +37,7 @@ export default function ProductCard(
     }
 ) {
     return (
-        <div className={'ProductCard'} key={key}>
+        <div className={'ProductCard'}>
             <div className="ProductCard__content">
                 <div className="ProductCard__product">
                     <div className={'ProductCard__photo'}>

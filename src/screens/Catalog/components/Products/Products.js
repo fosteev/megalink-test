@@ -43,7 +43,7 @@ const data = [{
     header: 'Apple Airpod 2',
     src: IpodImage,
     location: 'Dubia',
-    id: 2,
+    id: 3,
     unit: 249,
     total: 16840,
     qty: 50,
@@ -77,7 +77,8 @@ export default function Products() {
             </div>
 
             {
-                data.map(i => <ProductCard key={`${i.id}`}
+                data.map(i => <ProductCard id={`${i.id}`}
+                                           key={`${i.id}`}
                                            image={i.src}
                                            location={i.location}
                                            freight={i.freight}

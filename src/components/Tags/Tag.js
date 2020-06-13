@@ -3,11 +3,10 @@ import {FactorySealed, NewInBox, Unlocked, Verizon} from "./index";
 import PropTypes from 'prop-types';
 
 Tag.propTypes = {
-    type: PropTypes.oneOf(['FactorySealed', 'NewInBox', 'Unlocked', 'Verizon']),
-    key: PropTypes.string
+    type: PropTypes.oneOf(['FactorySealed', 'NewInBox', 'Unlocked', 'Verizon'])
 }
 
-export default function Tag({type, key}) {
+export default function Tag({type}) {
     if (type === 'FactorySealed') {
         return <FactorySealed />;
     }
