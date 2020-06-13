@@ -1,0 +1,13 @@
+.Share {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Share > span {
+    color: var(--secondary);
+    font-size: 16px;
+    line-height: 145%;
+
+    margin-left: 10px;
+}
