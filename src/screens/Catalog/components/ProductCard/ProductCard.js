@@ -14,7 +14,8 @@ ProductCard.propTypes = {
     location: PropTypes.string,
     freight: PropTypes.array,
     unit: PropTypes.number,
-    total: PropTypes.number
+    total: PropTypes.number,
+    qty: PropTypes.number
 }
 
 ProductCard.defaultProps = {
@@ -31,7 +32,8 @@ export default function ProductCard(
         location,
         freight,
         unit,
-        total
+        total,
+        qty
     }
 ) {
     return (
@@ -51,7 +53,7 @@ export default function ProductCard(
                 </div>
                 <div className="ProductCard__location">{location}</div>
                 <div className="ProductCard__qty">
-                    <Quanty />
+                    <Quanty defaultValue={qty} />
                 </div>
                 <div className="ProductCard__avgunitprice">${unit}/unit</div>
                 <span className="ProductCard__total">{currencyString(total)}</span>

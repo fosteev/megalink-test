@@ -14,6 +14,7 @@ const data = [{
     id: 1,
     unit: 439,
     total: 4390,
+    qty: 10,
     tags: ['FactorySealed', 'Verizon'],
     freight: [{
         head: 'Freight Type',
@@ -21,18 +22,32 @@ const data = [{
     }, {
         head: 'Est Delivery Time',
         value: '3-5 Days'
-    }, {
-        head: 'Freight Charges',
-        value:  currencyString(1684),
     }]
 }, {
-    header: 'iPhone 11 - 64GB - Purple',
+    header: 'iPhone XR - Space Grey',
     src: IpodImage,
     location: 'New York',
     id: 2,
-    unit: 439,
-    total: 4390,
+    unit: 409,
+    total: 8180,
+    qty: 20,
     tags: ['NewInBox', 'Unlocked'],
+    freight: [{
+        head: 'Freight Type',
+        value: 'CIF'
+    }, {
+        head: 'Est Delivery Time',
+        value: '3-5 Days'
+    }]
+}, {
+    header: 'Apple Airpod 2',
+    src: IpodImage,
+    location: 'Dubia',
+    id: 2,
+    unit: 249,
+    total: 16840,
+    qty: 50,
+    tags: ['FactorySealed'],
     freight: [{
         head: 'Freight Type',
         value: 'CIF'
@@ -69,6 +84,7 @@ export default function Products() {
                                            unit={i.unit}
                                            total={i.total}
                                            tags={i.tags}
+                                           qty={i.qty}
                                            header={i.header}/>)
             }
         </div>
