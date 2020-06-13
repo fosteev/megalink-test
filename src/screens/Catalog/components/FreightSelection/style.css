@@ -1,0 +1,15 @@
+.FreightSelection {
+    display: flex;
+    flex-direction: column;
+}
+
+.FreightSelection > span {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.FreightSelection__content {
+    display: flex;
+}
