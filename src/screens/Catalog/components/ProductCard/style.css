@@ -1,0 +1,91 @@
+.ProductCard {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    border: solid 2px var(--primary);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.ProductCard__content {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+}
+
+.ProductCard__footer {
+    display: flex;
+    flex: 1;
+    padding: 13px;
+    font-size: 14px;
+    background: #F1F1F1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.ProductCard__product {
+    display: flex;
+    flex: 3
+}
+
+.ProductCard__descr {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductCard__header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--primary);
+}
+
+.ProductCard__photo {
+    width: 42px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px #B5BFC0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+.ProductCard__location {
+    flex: 1;
+}
+
+.ProductCard__qty {
+    display: flex;
+    flex: 1;
+}
+
+.ProductCard__avgunitprice {
+    flex: 1;
+}
+
+.ProductCard__total {
+    flex: 1;
+    text-align: end;
+}
+
+.ProductCard__remove {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.ProductCard__tags {
+    display: flex;
+}
+
+.ProductCard__tags > div:first-child {
+    margin: 0;
+}
+
+.ProductCard__tags > div {
+    margin: 0 5px;
+}
