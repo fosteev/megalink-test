@@ -1,0 +1,13 @@
+.Avatar {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.Avatar__logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    background-size: contain;
+}
