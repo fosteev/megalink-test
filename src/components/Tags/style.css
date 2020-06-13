@@ -1,0 +1,18 @@
+.Tag {
+    font-size: 14px;
+    border: solid 1px var(--primary);
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.Unlocked {
+    background: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--secondary-contrast);
+}
+
+.Verizon {
+    background: #33AA71;
+    border-color: #33AA71;
+    color: #FFFFFF;
+}
