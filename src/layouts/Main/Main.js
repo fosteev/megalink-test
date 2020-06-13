@@ -8,11 +8,21 @@ import {
     Link
 } from 'react-router-dom';
 
+import './style.css';
+
+import {Catalog} from "../../screens";
+
 export default function Main() {
     return (
         <BrowserRouter>
             <AppBar />
-            Main
+
+            <main>
+                <Switch>
+                    <Route path={'/catalog'} component={Catalog}></Route>
+                    <Redirect to={'/catalog'}></Redirect>
+                </Switch>
+            </main>
         </BrowserRouter>
     )
 }
