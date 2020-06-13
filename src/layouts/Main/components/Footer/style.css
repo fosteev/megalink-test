@@ -1,0 +1,30 @@
+.Footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.Footer__header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--primary);
+}
+
+.Footer__helpfullink {
+    display: flex;
+    align-items: center;
+    color: var(--secondary);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+
+    cursor: pointer;    
+
+    margin-top: 5px;
+
+}
