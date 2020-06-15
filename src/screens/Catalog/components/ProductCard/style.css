@@ -10,6 +10,7 @@
 .ProductCard__content {
     display: flex;
     align-items: center;
+    flex: 2;
     padding: 13px;
 }
 
