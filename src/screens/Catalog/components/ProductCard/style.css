@@ -16,7 +16,7 @@
 .ProductCard__footer {
     display: flex;
     flex: 1;
-    padding: 13px;
+    padding: 10px;
     font-size: 14px;
     background: #F1F1F1;
     border-bottom-right-radius: 10px;
