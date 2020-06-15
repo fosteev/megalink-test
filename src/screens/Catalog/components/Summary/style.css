@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 1660px) {
+@media screen and (max-width: 1400px) {
     .Summary {
         flex-direction: row;
         align-items: center;

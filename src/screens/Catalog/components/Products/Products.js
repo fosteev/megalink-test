@@ -25,7 +25,7 @@ const data = [{
     }]
 }, {
     header: 'iPhone XR - Space Grey',
-    src: IpodImage,
+    src: IphoneImage,
     location: 'New York',
     id: 2,
     unit: 409,

@@ -12,11 +12,11 @@
     display: flex;
     justify-content: flex-end;
     flex: 2;
-    margin-left: 20px;
+    margin-left: 37px;
 }
 
 
-@media screen and (max-width: 1660px) {
+@media screen and (max-width: 1400px) {
     .CatalogContent {
         flex-direction: column;
     }
