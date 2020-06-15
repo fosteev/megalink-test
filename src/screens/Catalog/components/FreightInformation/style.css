@@ -18,10 +18,11 @@
     margin-top: 13px;
     padding-bottom: 5px;
     border-bottom: solid 1px #C4C4C4;
+    padding-bottom: 18px;
 }
 
 .FreightInformation__item {
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .FreightInformation__item > div {

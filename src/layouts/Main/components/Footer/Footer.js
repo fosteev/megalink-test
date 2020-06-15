@@ -11,7 +11,7 @@ const links = [
 export default function Footer() {
     return (
         <footer className={'Footer'}>
-            <div>
+            <div className={'Footer__help'}>
                 <span className="Footer__header">
                     Helpful Links
                 </span>

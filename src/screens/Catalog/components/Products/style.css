@@ -8,7 +8,7 @@
     justify-content: space-between;
 
     border-bottom: solid 1px var(--primary);
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 .Products__item-product {
