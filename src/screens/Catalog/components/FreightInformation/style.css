@@ -25,7 +25,7 @@
 }
 
 .FreightInformation__item > div {
-    margin-top: 5px;
+    margin-top: 9px;
 }
 
 .FreightInformation__subheader {
@@ -69,4 +69,8 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--primary);
+}
+
+.FreightInformation__totalsum {
+    font-weight: bold;
 }
